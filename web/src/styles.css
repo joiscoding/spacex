@@ -290,9 +290,19 @@ body {
   filter: grayscale(20%);
   transition: filter 0.3s, transform 0.5s;
 }
+.thumb img.asset-fallback,
+.drawer .hero img.asset-fallback,
+.thumbs img.asset-fallback {
+  filter: none;
+  object-fit: cover;
+}
 .card:hover .thumb img {
   filter: grayscale(0%);
   transform: scale(1.02);
+}
+.card:hover .thumb img.asset-fallback {
+  filter: none;
+  transform: none;
 }
 .thumb.noimg {
   display: flex;
@@ -525,6 +535,25 @@ body {
   border: 1px dashed var(--border);
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+.loadmore {
+  display: block;
+  margin: 28px auto 0;
+  background: transparent;
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  padding: 12px 28px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.loadmore:hover {
+  background: var(--fg);
+  color: var(--bg);
 }
 a.webcast {
   display: inline-block;

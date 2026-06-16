@@ -1,5 +1,5 @@
 import type { Launch } from "../types";
-import { fmtDate, missionLabel } from "../lib";
+import { fallbackImageForLaunch, fmtDate, missionLabel } from "../lib";
 
 interface Props {
   launch: Launch;
@@ -8,14 +8,22 @@ interface Props {
 
 export default function LaunchCard({ launch, onOpen }: Props) {
   const img = launch.images[0]?.url;
+  const fallback = fallbackImageForLaunch(launch);
   return (
     <div className="card" onClick={() => onOpen(launch)}>
-      <div className={"thumb" + (img ? "" : " noimg")}>
-        {img ? (
-          <img src={img} alt={launch.title} loading="lazy" />
-        ) : (
-          <span>🚀</span>
-        )}
+      <div className="thumb">
+        <img
+          src={img ?? fallback}
+          alt={img ? launch.title : `${launch.title} placeholder`}
+          loading="lazy"
+          decoding="async"
+          className={img ? "" : "asset-fallback"}
+          onError={(event) => {
+            event.currentTarget.onerror = null;
+            event.currentTarget.src = fallback;
+            event.currentTarget.classList.add("asset-fallback");
+          }}
+        />
         {launch.status !== "final" && (
           <span className={"badge " + launch.status}>{launch.status}</span>
         )}

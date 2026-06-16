@@ -28,6 +28,13 @@ export function missionLabel(m: string): string {
   return MISSION_LABELS[m] ?? (m || "Other");
 }
 
+export function fallbackImageForLaunch(launch: Pick<Launch, "vehicle" | "missionType">): string {
+  if (launch.vehicle === "Starship" || launch.missionType === "starship") {
+    return "/assets/thumbnail-placeholder-starship.svg";
+  }
+  return "/assets/thumbnail-placeholder-orbit.svg";
+}
+
 export function fmtDate(d: string): string {
   if (!d) return "TBD";
   const dt = new Date(d + "T00:00:00");

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Starship thumbnail placeholder</title>
+  <desc id="desc">A minimal Starship silhouette against a dark horizon.</desc>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="28%" r="60%">
+      <stop offset="0" stop-color="#393939"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="ship" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#8b8b8b"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#halo)"/>
+  <path d="M0 304c87-24 162-36 250-20 111 20 220 11 390-31v147H0z" fill="#111111"/>
+  <path d="M320 74c-37 38-55 86-55 145v80h110v-80c0-59-18-107-55-145z" fill="url(#ship)"/>
+  <path d="M265 238l-47 75h47zM375 238l47 75h-47z" fill="#666666"/>
+  <path d="M299 168h42M294 197h52" stroke="#222222" stroke-width="8" stroke-linecap="round"/>
+  <path d="M283 316h74" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M229 344h182" stroke="#555555" stroke-width="4" stroke-linecap="round"/>
+  <text x="320" y="365" fill="#777777" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="8" text-anchor="middle">STARSHIP IMAGE</text>
+</svg>
