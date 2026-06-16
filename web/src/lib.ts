@@ -14,14 +14,14 @@ export const MISSION_TYPE_ORDER = [
 
 export const MISSION_TYPE_COLORS: Record<string, string> = {
   starlink: "#f5f5f5",
-  commercialSatellite: "#d9d9d9",
-  resupply: "#bfbfbf",
-  nssl: "#a6a6a6",
-  rideshare: "#8c8c8c",
-  hsf: "#737373",
-  science: "#5a5a5a",
-  starship: "#424242",
-  other: "#2f2f2f",
+  commercialSatellite: "#c7c7c7",
+  resupply: "#9f9f9f",
+  nssl: "#7f7f7f",
+  rideshare: "#626262",
+  hsf: "#4b4b4b",
+  science: "#353535",
+  starship: "#242424",
+  other: "#151515",
 };
 
 const MISSION_LABELS: Record<string, string> = {

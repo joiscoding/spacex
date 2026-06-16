@@ -2,6 +2,8 @@ import { useMemo } from "react";
 import type { Launch } from "../types";
 import { MISSION_TYPE_ORDER, missionLabel, missionTypeColor } from "../lib";
 
+const CHART_HEIGHT = 168;
+
 interface Props {
   launches: Launch[];
   activeYear: string | null;
@@ -30,7 +32,7 @@ export default function CadenceChart({ launches, activeYear, onYear }: Props) {
   return (
     <div className="cadence">
       <div className="head">
-        <h2>Launch cadence by year</h2>
+        <h2>Launch cadence by mission type</h2>
         <div className="legend">
           {MISSION_TYPE_ORDER.map((m) => (
             <span key={m}>
@@ -51,7 +53,7 @@ export default function CadenceChart({ launches, activeYear, onYear }: Props) {
               onClick={() => onYear(activeYear === y ? null : y)}
               title={`${y}: ${total} launches by mission type`}
             >
-              <div className="barstack" style={{ height: `${(total / max) * 132}px` }}>
+              <div className="barstack" style={{ height: `${(total / max) * CHART_HEIGHT}px` }}>
                 {MISSION_TYPE_ORDER.filter((type) => m.get(type)).map((type) => (
                   <div
                     key={type}
