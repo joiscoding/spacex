@@ -150,7 +150,9 @@ body {
   opacity: 0.8;
 }
 .barcol.active .barstack {
-  box-shadow: 0 0 0 1px var(--fg), 0 0 0 3px var(--bg);
+  outline: 2px solid var(--fg);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 1px var(--bg);
 }
 .barcol .yr {
   font-size: 12px;
