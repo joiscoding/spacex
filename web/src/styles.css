@@ -144,15 +144,25 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column-reverse;
+  position: relative;
   transition: opacity 0.15s;
 }
 .barcol:hover .barstack {
   opacity: 0.8;
 }
 .barcol.active .barstack {
-  outline: 2px solid var(--fg);
-  outline-offset: 3px;
-  box-shadow: 0 0 0 1px var(--bg);
+  outline: none;
+}
+.barcol.active .barstack::after {
+  content: "";
+  position: absolute;
+  inset: -6px -4px;
+  border: 2px solid #f54e00;
+  pointer-events: none;
+}
+.barcol.active .yr {
+  color: #f54e00;
+  font-weight: 700;
 }
 .barcol .yr {
   font-size: 12px;
