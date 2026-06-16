@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">SpaceX mission thumbnail placeholder</title>
+  <desc id="desc">A minimal orbital arc over a dark launch pad.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <circle cx="505" cy="92" r="42" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M72 292C188 118 357 52 562 78" fill="none" stroke="url(#glow)" stroke-width="3"/>
+  <path d="M113 304h414" stroke="#333333" stroke-width="2"/>
+  <path d="M160 304l40-102 39 102" fill="none" stroke="#888888" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M200 202v-58" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M186 144h28l-7-34h-14z" fill="#ffffff"/>
+  <path d="M200 318v32" stroke="#444444" stroke-width="6" stroke-linecap="round"/>
+  <path d="M291 244h171M326 274h136" stroke="#555555" stroke-width="6" stroke-linecap="round"/>
+  <text x="320" y="352" fill="#777777" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="8" text-anchor="middle">MISSION IMAGE</text>
+</svg>

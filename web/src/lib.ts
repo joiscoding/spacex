@@ -1,17 +1,28 @@
 import type { Launch } from "./types";
 
-export const VEHICLE_COLORS: Record<string, string> = {
-  "Falcon 9": "#ffffff",
-  Starship: "#666666",
-  "Falcon Heavy": "#aaaaaa",
-  "Falcon 1": "#333333",
+export const MISSION_TYPE_ORDER = [
+  "starlink",
+  "commercialSatellite",
+  "resupply",
+  "nssl",
+  "rideshare",
+  "hsf",
+  "science",
+  "starship",
+  "other",
+];
+
+export const MISSION_TYPE_COLORS: Record<string, string> = {
+  starlink: "#f5f5f5",
+  commercialSatellite: "#c7c7c7",
+  resupply: "#9f9f9f",
+  nssl: "#7f7f7f",
+  rideshare: "#626262",
+  hsf: "#4b4b4b",
+  science: "#353535",
+  starship: "#242424",
+  other: "#151515",
 };
-
-export const VEHICLE_ORDER = ["Falcon 9", "Falcon Heavy", "Starship", "Falcon 1"];
-
-export function vehicleColor(v: string): string {
-  return VEHICLE_COLORS[v] ?? "#444444";
-}
 
 const MISSION_LABELS: Record<string, string> = {
   starlink: "Starlink",
@@ -22,10 +33,22 @@ const MISSION_LABELS: Record<string, string> = {
   hsf: "Human Spaceflight",
   science: "Science",
   starship: "Starship",
+  other: "Other",
 };
 
 export function missionLabel(m: string): string {
   return MISSION_LABELS[m] ?? (m || "Other");
+}
+
+export function missionTypeColor(m: string): string {
+  return MISSION_TYPE_COLORS[m] ?? "#303030";
+}
+
+export function fallbackImageForLaunch(launch: Pick<Launch, "vehicle" | "missionType">): string {
+  if (launch.vehicle === "Starship" || launch.missionType === "starship") {
+    return "/assets/thumbnail-placeholder-starship.svg";
+  }
+  return "/assets/thumbnail-placeholder-orbit.svg";
 }
 
 export function fmtDate(d: string): string {

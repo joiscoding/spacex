@@ -13,11 +13,14 @@ const EMPTY: FilterState = {
   successOnly: false,
 };
 
+const PAGE_SIZE = 48;
+
 export default function App() {
   const [all, setAll] = useState<Launch[] | null>(null);
   const [filters, setFilters] = useState<FilterState>(EMPTY);
   const [year, setYear] = useState<string | null>(null);
   const [open, setOpen] = useState<Launch | null>(null);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => {
     fetch("/launches.json")
@@ -39,6 +42,15 @@ export default function App() {
       return true;
     });
   }, [all, filters, year]);
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [filters, year]);
+
+  const visibleLaunches = useMemo(
+    () => filtered.slice(0, visibleCount),
+    [filtered, visibleCount],
+  );
 
   const stats = useMemo(() => {
     if (!all) return null;
@@ -91,7 +103,8 @@ export default function App() {
         <main>
           <div className="gridhead">
             <span>
-              {filtered.length} {filtered.length === 1 ? "mission" : "missions"}
+              Showing {visibleLaunches.length} of {filtered.length}{" "}
+              {filtered.length === 1 ? "mission" : "missions"}
               {year ? ` in ${year}` : ""}
             </span>
             {year && (
@@ -104,9 +117,21 @@ export default function App() {
             {filtered.length === 0 ? (
               <div className="empty">No missions match these filters.</div>
             ) : (
-              filtered.map((l) => <LaunchCard key={l.id} launch={l} onOpen={setOpen} />)
+              visibleLaunches.map((l) => (
+                <LaunchCard key={l.id} launch={l} onOpen={setOpen} />
+              ))
             )}
           </div>
+          {visibleLaunches.length < filtered.length && (
+            <button
+              className="loadmore"
+              onClick={() =>
+                setVisibleCount((count) => Math.min(count + PAGE_SIZE, filtered.length))
+              }
+            >
+              Load more missions
+            </button>
+          )}
         </main>
       </div>
 

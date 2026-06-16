@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { Launch } from "../types";
-import { fmtDate, missionLabel } from "../lib";
+import { fallbackImageForLaunch, fmtDate, missionLabel } from "../lib";
 
 interface Props {
   launch: Launch;
@@ -26,6 +26,7 @@ export default function DetailDrawer({ launch, onClose }: Props) {
     return () => window.removeEventListener("keydown", onKey);
   }, [launch, onClose]);
 
+  const fallback = fallbackImageForLaunch(launch);
   const hero = launch.images[sel]?.url;
   const url = webcastUrl(launch);
 
@@ -40,21 +41,16 @@ export default function DetailDrawer({ launch, onClose }: Props) {
       <div className="scrim" onClick={onClose} />
       <div className="drawer">
         <div className="hero">
-          {hero ? (
-            <img src={hero} alt={launch.title} />
-          ) : (
-            <div
-              style={{
-                height: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: 56,
-              }}
-            >
-              🚀
-            </div>
-          )}
+          <img
+            src={hero ?? fallback}
+            alt={hero ? launch.title : `${launch.title} placeholder`}
+            className={hero ? "" : "asset-fallback"}
+            onError={(event) => {
+              event.currentTarget.onerror = null;
+              event.currentTarget.src = fallback;
+              event.currentTarget.classList.add("asset-fallback");
+            }}
+          />
           <button className="closebtn" onClick={onClose}>
             ×
           </button>
@@ -89,6 +85,12 @@ export default function DetailDrawer({ launch, onClose }: Props) {
                   className={i === sel ? "sel" : ""}
                   onClick={() => setSel(i)}
                   alt=""
+                  loading="lazy"
+                  onError={(event) => {
+                    event.currentTarget.onerror = null;
+                    event.currentTarget.src = fallback;
+                    event.currentTarget.classList.add("asset-fallback");
+                  }}
                 />
               ))}
             </div>
