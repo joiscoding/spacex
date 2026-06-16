@@ -149,8 +149,7 @@ body {
   opacity: 0.8;
 }
 .barcol.active .barstack {
-  outline: 1px solid var(--fg);
-  outline-offset: 2px;
+  box-shadow: 0 0 0 1px var(--fg), 0 0 0 3px var(--bg);
 }
 .barcol .yr {
   font-size: 12px;
@@ -158,9 +157,10 @@ body {
 }
 .barseg {
   width: 100%;
+  min-height: 2px;
 }
 .barseg + .barseg {
-  border-top: 1px solid rgba(0, 0, 0, 0.45);
+  border-top: 2px solid rgba(0, 0, 0, 0.72);
 }
 
 /* Layout */
