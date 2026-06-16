@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import type { Launch } from "../types";
-import { VEHICLE_ORDER, vehicleColor } from "../lib";
+import { MISSION_TYPE_ORDER, missionLabel, missionTypeColor } from "../lib";
 
 interface Props {
   launches: Launch[];
@@ -15,7 +15,8 @@ export default function CadenceChart({ launches, activeYear, onYear }: Props) {
       if (!l.year) continue;
       if (!byYear.has(l.year)) byYear.set(l.year, new Map());
       const m = byYear.get(l.year)!;
-      m.set(l.vehicle, (m.get(l.vehicle) ?? 0) + 1);
+      const missionType = l.missionType || "other";
+      m.set(missionType, (m.get(missionType) ?? 0) + 1);
     }
     const years = [...byYear.keys()].sort();
     let max = 1;
@@ -31,10 +32,10 @@ export default function CadenceChart({ launches, activeYear, onYear }: Props) {
       <div className="head">
         <h2>Launch cadence by year</h2>
         <div className="legend">
-          {VEHICLE_ORDER.map((v) => (
-            <span key={v}>
-              <i style={{ background: vehicleColor(v) }} />
-              {v}
+          {MISSION_TYPE_ORDER.map((m) => (
+            <span key={m}>
+              <i style={{ background: missionTypeColor(m) }} />
+              {missionLabel(m)}
             </span>
           ))}
         </div>
@@ -48,16 +49,17 @@ export default function CadenceChart({ launches, activeYear, onYear }: Props) {
               key={y}
               className={"barcol" + (activeYear === y ? " active" : "")}
               onClick={() => onYear(activeYear === y ? null : y)}
-              title={`${y}: ${total} launches`}
+              title={`${y}: ${total} launches by mission type`}
             >
               <div className="barstack" style={{ height: `${(total / max) * 132}px` }}>
-                {VEHICLE_ORDER.filter((v) => m.get(v)).map((v) => (
+                {MISSION_TYPE_ORDER.filter((type) => m.get(type)).map((type) => (
                   <div
-                    key={v}
+                    key={type}
                     className="barseg"
+                    title={`${missionLabel(type)}: ${m.get(type)} launches`}
                     style={{
-                      flex: m.get(v)!,
-                      background: vehicleColor(v),
+                      flex: m.get(type)!,
+                      background: missionTypeColor(type),
                     }}
                   />
                 ))}
