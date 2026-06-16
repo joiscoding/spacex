@@ -1,0 +1,1088 @@
+{
+  "quarterly": [
+    {
+      "Year": 2012,
+      "Quarter": "2012 Q3",
+      "Deliveries": 253.0,
+      "Production": 345
+    },
+    {
+      "Year": 2012,
+      "Quarter": "2012 Q4",
+      "Deliveries": 2397.0,
+      "Production": 2760
+    },
+    {
+      "Year": 2013,
+      "Quarter": "2013 Q1",
+      "Deliveries": 4911.0,
+      "Production": 5050
+    },
+    {
+      "Year": 2013,
+      "Quarter": "2013 Q2",
+      "Deliveries": 5162.0,
+      "Production": 5450
+    },
+    {
+      "Year": 2013,
+      "Quarter": "2013 Q3",
+      "Deliveries": 5512.0,
+      "Production": 6100
+    },
+    {
+      "Year": 2013,
+      "Quarter": "2013 Q4",
+      "Deliveries": 6892.0,
+      "Production": 6587
+    },
+    {
+      "Year": 2014,
+      "Quarter": "2014 Q1",
+      "Deliveries": 6457.0,
+      "Production": 7535
+    },
+    {
+      "Year": 2014,
+      "Quarter": "2014 Q2",
+      "Deliveries": 7579.0,
+      "Production": 8763
+    },
+    {
+      "Year": 2014,
+      "Quarter": "2014 Q3",
+      "Deliveries": 7785.0,
+      "Production": 7200
+    },
+    {
+      "Year": 2014,
+      "Quarter": "2014 Q4",
+      "Deliveries": 9834.0,
+      "Production": 11627
+    },
+    {
+      "Year": 2015,
+      "Quarter": "2015 Q1",
+      "Deliveries": 10045.0,
+      "Production": 11160
+    },
+    {
+      "Year": 2015,
+      "Quarter": "2015 Q2",
+      "Deliveries": 11532.0,
+      "Production": 12807
+    },
+    {
+      "Year": 2015,
+      "Quarter": "2015 Q3",
+      "Deliveries": 11603.0,
+      "Production": 13091
+    },
+    {
+      "Year": 2015,
+      "Quarter": "2015 Q4",
+      "Deliveries": 17478.0,
+      "Production": 14037
+    },
+    {
+      "Year": 2016,
+      "Quarter": "2016 Q1",
+      "Deliveries": 14810.0,
+      "Production": 15510
+    },
+    {
+      "Year": 2016,
+      "Quarter": "2016 Q2",
+      "Deliveries": 14402.0,
+      "Production": 18345
+    },
+    {
+      "Year": 2016,
+      "Quarter": "2016 Q3",
+      "Deliveries": 24821.0,
+      "Production": 25185
+    },
+    {
+      "Year": 2016,
+      "Quarter": "2016 Q4",
+      "Deliveries": 22252.0,
+      "Production": 24882
+    },
+    {
+      "Year": 2017,
+      "Quarter": "2017 Q1",
+      "Deliveries": 25051.0,
+      "Production": 25418
+    },
+    {
+      "Year": 2017,
+      "Quarter": "2017 Q2",
+      "Deliveries": 22026.0,
+      "Production": 25708
+    },
+    {
+      "Year": 2017,
+      "Quarter": "2017 Q3",
+      "Deliveries": 26137.0,
+      "Production": 25336
+    },
+    {
+      "Year": 2017,
+      "Quarter": "2017 Q4",
+      "Deliveries": 29967.0,
+      "Production": 24565
+    },
+    {
+      "Year": 2018,
+      "Quarter": "2018 Q1",
+      "Deliveries": 29997.0,
+      "Production": 34494
+    },
+    {
+      "Year": 2018,
+      "Quarter": "2018 Q2",
+      "Deliveries": 40768.0,
+      "Production": 53339
+    },
+    {
+      "Year": 2018,
+      "Quarter": "2018 Q3",
+      "Deliveries": 83775.0,
+      "Production": 80142
+    },
+    {
+      "Year": 2018,
+      "Quarter": "2018 Q4",
+      "Deliveries": 90966.0,
+      "Production": 86555
+    },
+    {
+      "Year": 2019,
+      "Quarter": "2019 Q1",
+      "Deliveries": 63019.0,
+      "Production": 77138
+    },
+    {
+      "Year": 2019,
+      "Quarter": "2019 Q2",
+      "Deliveries": 95356.0,
+      "Production": 87048
+    },
+    {
+      "Year": 2019,
+      "Quarter": "2019 Q3",
+      "Deliveries": 97186.0,
+      "Production": 96155
+    },
+    {
+      "Year": 2019,
+      "Quarter": "2019 Q4",
+      "Deliveries": 112095.0,
+      "Production": 104891
+    },
+    {
+      "Year": 2020,
+      "Quarter": "2020 Q1",
+      "Deliveries": 88496.0,
+      "Production": 102672
+    },
+    {
+      "Year": 2020,
+      "Quarter": "2020 Q2",
+      "Deliveries": 90891.0,
+      "Production": 82272
+    },
+    {
+      "Year": 2020,
+      "Quarter": "2020 Q3",
+      "Deliveries": 139593.0,
+      "Production": 145036
+    },
+    {
+      "Year": 2020,
+      "Quarter": "2020 Q4",
+      "Deliveries": 180667.0,
+      "Production": 179757
+    },
+    {
+      "Year": 2021,
+      "Quarter": "2021 Q1",
+      "Deliveries": 184877.0,
+      "Production": 180338
+    },
+    {
+      "Year": 2021,
+      "Quarter": "2021 Q2",
+      "Deliveries": 201304.0,
+      "Production": 206421
+    },
+    {
+      "Year": 2021,
+      "Quarter": "2021 Q3",
+      "Deliveries": 241391.0,
+      "Production": 237823
+    },
+    {
+      "Year": 2021,
+      "Quarter": "2021 Q4",
+      "Deliveries": 308650.0,
+      "Production": 305840
+    },
+    {
+      "Year": 2022,
+      "Quarter": "2022 Q1",
+      "Deliveries": 310048.0,
+      "Production": 305407
+    },
+    {
+      "Year": 2022,
+      "Quarter": "2022 Q2",
+      "Deliveries": 254695.0,
+      "Production": 258580
+    },
+    {
+      "Year": 2022,
+      "Quarter": "2022 Q3",
+      "Deliveries": 343830.0,
+      "Production": 365923
+    },
+    {
+      "Year": 2022,
+      "Quarter": "2022 Q4",
+      "Deliveries": 405278.0,
+      "Production": 439701
+    },
+    {
+      "Year": 2023,
+      "Quarter": "2023 Q1",
+      "Deliveries": 422875.0,
+      "Production": 440808
+    },
+    {
+      "Year": 2023,
+      "Quarter": "2023 Q2",
+      "Deliveries": 466140.0,
+      "Production": 479700
+    },
+    {
+      "Year": 2023,
+      "Quarter": "2023 Q3",
+      "Deliveries": 435059.0,
+      "Production": 430488
+    },
+    {
+      "Year": 2023,
+      "Quarter": "2023 Q4",
+      "Deliveries": 484507.0,
+      "Production": 494989
+    },
+    {
+      "Year": 2024,
+      "Quarter": "2024 Q1",
+      "Deliveries": 386810.0,
+      "Production": 433371
+    },
+    {
+      "Year": 2024,
+      "Quarter": "2024 Q2",
+      "Deliveries": 443956.0,
+      "Production": 410831
+    },
+    {
+      "Year": 2024,
+      "Quarter": "2024 Q3",
+      "Deliveries": 462890.0,
+      "Production": 469796
+    },
+    {
+      "Year": 2024,
+      "Quarter": "2024 Q4",
+      "Deliveries": 495570.0,
+      "Production": 459445
+    },
+    {
+      "Year": 2025,
+      "Quarter": "2025 Q1",
+      "Deliveries": 336681.0,
+      "Production": 362615
+    },
+    {
+      "Year": 2025,
+      "Quarter": "2025 Q2",
+      "Deliveries": 384122.0,
+      "Production": 410244
+    },
+    {
+      "Year": 2025,
+      "Quarter": "2025 Q3",
+      "Deliveries": 497099.0,
+      "Production": 447450
+    },
+    {
+      "Year": 2025,
+      "Quarter": "2025 Q4",
+      "Deliveries": 418227.0,
+      "Production": 434358
+    }
+  ],
+  "models": [
+    {
+      "Quarter.1": "2012 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 253.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2012 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 2397.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2013 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 4911.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2013 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 5162.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2013 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 5512.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2013 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 6892.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2014 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 6457.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2014 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 7579.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2014 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 7785.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2014 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 9834.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2015 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 10045.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2015 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 11532.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2015 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 11603.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2015 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 17478.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2016 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 14810.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2016 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 14402.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2016 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 24821.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2016 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 22252.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2017 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 25051.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2017 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 0.0,
+      "Model S/X": 22026.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2017 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 222.0,
+      "Model S/X": 25915.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2017 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 1542.0,
+      "Model S/X": 28425.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2018 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 8182.0,
+      "Model S/X": 21815.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2018 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 18449.0,
+      "Model S/X": 22319.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2018 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 56065.0,
+      "Model S/X": 27710.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2018 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 63359.0,
+      "Model S/X": 27607.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2019 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 50928.0,
+      "Model S/X": 12091.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2019 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 77634.0,
+      "Model S/X": 17722.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2019 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 79703.0,
+      "Model S/X": 17483.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2019 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 92620.0,
+      "Model S/X": 19475.0,
+      "Model Y": 0.0
+    },
+    {
+      "Quarter.1": "2020 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 74100.0,
+      "Model S/X": 12230.0,
+      "Model Y": 2166.0
+    },
+    {
+      "Quarter.1": "2020 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 67000.0,
+      "Model S/X": 10614.0,
+      "Model Y": 13277.0
+    },
+    {
+      "Quarter.1": "2020 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 92000.0,
+      "Model S/X": 15275.0,
+      "Model Y": 32318.0
+    },
+    {
+      "Quarter.1": "2020 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 123150.0,
+      "Model S/X": 18966.0,
+      "Model Y": 38551.0
+    },
+    {
+      "Quarter.1": "2021 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 121300.0,
+      "Model S/X": 2030.0,
+      "Model Y": 61547.0
+    },
+    {
+      "Quarter.1": "2021 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 115325.0,
+      "Model S/X": 1895.0,
+      "Model Y": 84084.0
+    },
+    {
+      "Quarter.1": "2021 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 125556.0,
+      "Model S/X": 9289.0,
+      "Model Y": 106546.0
+    },
+    {
+      "Quarter.1": "2021 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 148003.0,
+      "Model S/X": 11766.0,
+      "Model Y": 148881.0
+    },
+    {
+      "Quarter.1": "2022 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 133799.0,
+      "Model S/X": 14724.0,
+      "Model Y": 161525.0
+    },
+    {
+      "Quarter.1": "2022 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 96468.0,
+      "Model S/X": 16162.0,
+      "Model Y": 142065.0
+    },
+    {
+      "Quarter.1": "2022 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 121991.0,
+      "Model S/X": 18672.0,
+      "Model Y": 203167.0
+    },
+    {
+      "Quarter.1": "2022 Q4",
+      "Cybertruck": 0.0,
+      "Model 3": 129891.0,
+      "Model S/X": 17147.0,
+      "Model Y": 258240.0
+    },
+    {
+      "Quarter.1": "2023 Q1",
+      "Cybertruck": 0.0,
+      "Model 3": 133815.0,
+      "Model S/X": 10695.0,
+      "Model Y": 278365.0
+    },
+    {
+      "Quarter.1": "2023 Q2",
+      "Cybertruck": 0.0,
+      "Model 3": 142703.0,
+      "Model S/X": 19225.0,
+      "Model Y": 304212.0
+    },
+    {
+      "Quarter.1": "2023 Q3",
+      "Cybertruck": 0.0,
+      "Model 3": 110119.0,
+      "Model S/X": 15985.0,
+      "Model Y": 308955.0
+    },
+    {
+      "Quarter.1": "2023 Q4",
+      "Cybertruck": 124.0,
+      "Model 3": 133727.0,
+      "Model S/X": 22845.0,
+      "Model Y": 327811.0
+    },
+    {
+      "Quarter.1": "2024 Q1",
+      "Cybertruck": 2600.0,
+      "Model 3": 94369.0,
+      "Model S/X": 14427.0,
+      "Model Y": 275414.0
+    },
+    {
+      "Quarter.1": "2024 Q2",
+      "Cybertruck": 10100.0,
+      "Model 3": 136472.0,
+      "Model S/X": 11451.0,
+      "Model Y": 285933.0
+    },
+    {
+      "Quarter.1": "2024 Q3",
+      "Cybertruck": 14000.0,
+      "Model 3": 144379.0,
+      "Model S/X": 8915.0,
+      "Model Y": 295596.0
+    },
+    {
+      "Quarter.1": "2024 Q4",
+      "Cybertruck": 14040.0,
+      "Model 3": 149526.0,
+      "Model S/X": 9600.0,
+      "Model Y": 322404.0
+    },
+    {
+      "Quarter.1": "2025 Q1",
+      "Cybertruck": 5395.0,
+      "Model 3": 135558.0,
+      "Model S/X": 7486.0,
+      "Model Y": 188242.0
+    },
+    {
+      "Quarter.1": "2025 Q2",
+      "Cybertruck": 5390.0,
+      "Model 3": 112420.0,
+      "Model S/X": 5004.0,
+      "Model Y": 261308.0
+    },
+    {
+      "Quarter.1": "2025 Q3",
+      "Cybertruck": 5780.0,
+      "Model 3": 124965.0,
+      "Model S/X": 10153.0,
+      "Model Y": 356201.0
+    },
+    {
+      "Quarter.1": "2025 Q4",
+      "Cybertruck": 4256.0,
+      "Model 3": 116425.0,
+      "Model S/X": 7386.0,
+      "Model Y": 290160.0
+    }
+  ],
+  "factories": [
+    {
+      "Quarter.1": "2012 Q3",
+      "Berlin": 0.0,
+      "Fremont": 345.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2012 Q4",
+      "Berlin": 0.0,
+      "Fremont": 2760.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2013 Q1",
+      "Berlin": 0.0,
+      "Fremont": 5050.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2013 Q2",
+      "Berlin": 0.0,
+      "Fremont": 5450.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2013 Q3",
+      "Berlin": 0.0,
+      "Fremont": 6100.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2013 Q4",
+      "Berlin": 0.0,
+      "Fremont": 6587.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2014 Q1",
+      "Berlin": 0.0,
+      "Fremont": 7535.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2014 Q2",
+      "Berlin": 0.0,
+      "Fremont": 8763.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2014 Q3",
+      "Berlin": 0.0,
+      "Fremont": 7200.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2014 Q4",
+      "Berlin": 0.0,
+      "Fremont": 11627.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2015 Q1",
+      "Berlin": 0.0,
+      "Fremont": 11160.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2015 Q2",
+      "Berlin": 0.0,
+      "Fremont": 12807.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2015 Q3",
+      "Berlin": 0.0,
+      "Fremont": 13091.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2015 Q4",
+      "Berlin": 0.0,
+      "Fremont": 14037.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2016 Q1",
+      "Berlin": 0.0,
+      "Fremont": 15510.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2016 Q2",
+      "Berlin": 0.0,
+      "Fremont": 18345.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2016 Q3",
+      "Berlin": 0.0,
+      "Fremont": 25185.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2016 Q4",
+      "Berlin": 0.0,
+      "Fremont": 24882.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2017 Q1",
+      "Berlin": 0.0,
+      "Fremont": 25418.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2017 Q2",
+      "Berlin": 0.0,
+      "Fremont": 25708.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2017 Q3",
+      "Berlin": 0.0,
+      "Fremont": 25336.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2017 Q4",
+      "Berlin": 0.0,
+      "Fremont": 24565.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2018 Q1",
+      "Berlin": 0.0,
+      "Fremont": 34494.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2018 Q2",
+      "Berlin": 0.0,
+      "Fremont": 53339.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2018 Q3",
+      "Berlin": 0.0,
+      "Fremont": 80142.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2018 Q4",
+      "Berlin": 0.0,
+      "Fremont": 86555.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2019 Q1",
+      "Berlin": 0.0,
+      "Fremont": 77138.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2019 Q2",
+      "Berlin": 0.0,
+      "Fremont": 87048.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2019 Q3",
+      "Berlin": 0.0,
+      "Fremont": 96155.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2019 Q4",
+      "Berlin": 0.0,
+      "Fremont": 104891.0,
+      "Shanghai": 0.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2020 Q1",
+      "Berlin": 0.0,
+      "Fremont": 85991.0,
+      "Shanghai": 16681.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2020 Q2",
+      "Berlin": 0.0,
+      "Fremont": 49154.0,
+      "Shanghai": 33118.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2020 Q3",
+      "Berlin": 0.0,
+      "Fremont": 107539.0,
+      "Shanghai": 37497.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2020 Q4",
+      "Berlin": 0.0,
+      "Fremont": 112721.0,
+      "Shanghai": 67036.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2021 Q1",
+      "Berlin": 0.0,
+      "Fremont": 101096.0,
+      "Shanghai": 79242.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2021 Q2",
+      "Berlin": 0.0,
+      "Fremont": 108170.0,
+      "Shanghai": 98251.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2021 Q3",
+      "Berlin": 0.0,
+      "Fremont": 108759.0,
+      "Shanghai": 129064.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2021 Q4",
+      "Berlin": 0.0,
+      "Fremont": 126610.0,
+      "Shanghai": 179230.0,
+      "Texas": 0.0
+    },
+    {
+      "Quarter.1": "2022 Q1",
+      "Berlin": 999.0,
+      "Fremont": 125296.0,
+      "Shanghai": 178887.0,
+      "Texas": 225.0
+    },
+    {
+      "Quarter.1": "2022 Q2",
+      "Berlin": 7787.0,
+      "Fremont": 133111.0,
+      "Shanghai": 115229.0,
+      "Texas": 2453.0
+    },
+    {
+      "Quarter.1": "2022 Q3",
+      "Berlin": 16671.0,
+      "Fremont": 143290.0,
+      "Shanghai": 197412.0,
+      "Texas": 8550.0
+    },
+    {
+      "Quarter.1": "2022 Q4",
+      "Berlin": 23247.0,
+      "Fremont": 153413.0,
+      "Shanghai": 235141.0,
+      "Texas": 27900.0
+    },
+    {
+      "Quarter.1": "2023 Q1",
+      "Berlin": 38514.0,
+      "Fremont": 142835.0,
+      "Shanghai": 218539.0,
+      "Texas": 40920.0
+    },
+    {
+      "Quarter.1": "2023 Q2",
+      "Berlin": 46101.0,
+      "Fremont": 147702.0,
+      "Shanghai": 243768.0,
+      "Texas": 42129.0
+    },
+    {
+      "Quarter.1": "2023 Q3",
+      "Berlin": 51608.0,
+      "Fremont": 132359.0,
+      "Shanghai": 227270.0,
+      "Texas": 19251.0
+    },
+    {
+      "Quarter.1": "2023 Q4",
+      "Berlin": 60906.0,
+      "Fremont": 134370.0,
+      "Shanghai": 260159.0,
+      "Texas": 39554.0
+    },
+    {
+      "Quarter.1": "2024 Q1",
+      "Berlin": 53237.0,
+      "Fremont": 98595.0,
+      "Shanghai": 223648.0,
+      "Texas": 57891.0
+    },
+    {
+      "Quarter.1": "2024 Q2",
+      "Berlin": 47076.0,
+      "Fremont": 129119.0,
+      "Shanghai": 191299.0,
+      "Texas": 43337.0
+    },
+    {
+      "Quarter.1": "2024 Q3",
+      "Berlin": 52220.0,
+      "Fremont": 125172.0,
+      "Shanghai": 251003.0,
+      "Texas": 41401.0
+    },
+    {
+      "Quarter.1": "2024 Q4",
+      "Berlin": 55969.0,
+      "Fremont": 123641.0,
+      "Shanghai": 246576.0,
+      "Texas": 33259.0
+    },
+    {
+      "Quarter.1": "2025 Q1",
+      "Berlin": 41176.0,
+      "Fremont": 117449.0,
+      "Shanghai": 173697.0,
+      "Texas": 30293.0
+    },
+    {
+      "Quarter.1": "2025 Q2",
+      "Berlin": 56427.0,
+      "Fremont": 107939.0,
+      "Shanghai": 195868.0,
+      "Texas": 50010.0
+    },
+    {
+      "Quarter.1": "2025 Q3",
+      "Berlin": 48354.0,
+      "Fremont": 106778.0,
+      "Shanghai": 233136.0,
+      "Texas": 59182.0
+    },
+    {
+      "Quarter.1": "2025 Q4",
+      "Berlin": 52555.0,
+      "Fremont": 88506.0,
+      "Shanghai": 247726.0,
+      "Texas": 45571.0
+    }
+  ]
+}
